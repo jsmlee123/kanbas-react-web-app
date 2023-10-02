@@ -1,95 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head><head>
 <head>
-   <meta charset="UTF-8">
-   <title>Account</title>
+    <link href="../index.css"
+         rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <td style="vertical-align:top">
-                <ul>
-                    <li><a href="../account.html">Account</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="../courses.html">Courses</a></li>
-                    <li><a href="#">Calender</a></li>
-                    <li><a href="#">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Commons</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </td>
-            <td style="vertical-align:top">
-                <ul>
-                    <li><a href="#">Notifications</a></li>
-                    <li><a href="index.html">Profile</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">ePortfolios</a></li>
-                    <li><a href="#">Shared Content</a></li>
-                    <li><a href="#">The Hub</a></li>
-                    <li><a href="#">Qwickly Course Tools</a></li>
-                    <li><a href="#">Global Announcements</a></li>
-                </ul>
-            </td>
-            
-            <td style="vertical-align:top">
-                <h1>Jose Annunziato</h1>
-                Name:*
-                <input type="text"
-                    id="text-fields-assignment-name"
-                    value="Jose Annunziato"/>
-                Pronouns:
-                <select id="select-one-genre">
-                    <option selected value="NONE">None</option>
-                </select><br/><br/>
-                Title:
-                <input type="text"
-                    id="text-fields-assignment-name"
-                    value=""/>
-                <h2>Contact</h2>
-                No registered devices, you can add some on the <a href="#">settings</a> page
-                <h2>Contact</h2>
-                No registered devices, you can add some on the <a href="#">settings</a> page
-                <h2>Biography</h2>
-                Faculty, Software Engineer, AI, Space, and renewables enthusiast.<br/>
-                <textarea>Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea><br/>
-                <h2>Links</h2>
-                <ul>
-                    <li>
-                        <a href="#">Youtube</a>
-                    </li>
-                </ul>
-                <table>
-                    <tr>
-                        <th><h3>Title</h3> </th>
-                        <th/>
-                        <th><h3>URL</h3></th>
-                        <th/>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text"
+    <div class="wd-row-layout">
+        <div class="wd-side-bar">
+            <img src="../../images/northeastern-logo.png"
+                class="card-img-top" alt="...">
+            <a href="index.html" class="wd-white-background">
+                <i class="fas fa-user-circle fa-2x wd-gray"></i><br/>
+                <span class="wd-red">Account</span>
+            </a>
+            <a href="../dashboard.html">
+                <i class="fas fa-tachometer-alt fa-2x wd-red"></i><br/>
+                <span class="wd-white">Dashboard</span>
+            </a>
+            <a href="../home.html">
+                <i class="fas fa-book fa-2x wd-red"></i><br/>
+                <span class="wd-white">Courses</span>
+            </a>
+            <a href="#">
+                <i class="far fa-calendar-alt fa-2x wd-red"></i><br/>
+                <span class="wd-white">Calender</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-inbox fa-2x wd-red"></i><br/>
+                <span class="wd-white">Inbox</span>
+            </a>
+            <a href="#">
+                <i class="far fa-clock fa-2x wd-red"></i><br/>
+                <span class="wd-white">History</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-tv fa-2x wd-red"></i><br/>
+                <span class="wd-white">Studio</span>
+            </a>
+            <a href="#">
+                <i class="fab fa-creative-commons-sa fa-2x wd-red"></i><br/>
+                <span class="wd-white">Commons</span>
+            </a>
+            <a href="#">
+                <i class="far fa-question-circle fa-2x wd-red"></i><br/>
+                <span class="wd-white">Help</span>
+            </a>
+        </div>
+        <div class="wd-content-container">
+            <div class="wd-profile-header">
+                <i class="fas fa-bars wd-menu-icon"></i>
+                <span class="wd-text">Jose Annunziato's Profile</span>
+            </div>
+            <hr class="wd-hr"/>
+            <div class="wd-row-layout">
+                <div class="wd-account-sidebar">
+                    <a href="#">Notifications</a>
+                    <a href="index.html" >
+                        <span class="wd-account-sidebar-selected">Profile</span>
+                    </a>
+                    <a href="#">Files</a>
+                    <a href="#">Settings</a>
+                    <a href="#">ePortfolios</a>
+                    <a href="#">Shared Content</a>
+                    <a href="#">The Hub</a>
+                    <a href="#">Qwickly Course Tools</a>
+                    <a href="#">Global Announcements</a>
+                </div>
+                <div class="wd-profile-info">
+                    <i class="fas fa-user fa-10x wd-gray"></i>
+                    <label for="text-fields-assignment-name" class="form-label wd-bold-font">Name:*</label>
+                    <input type="text"
+                        id="text-fields-assignment-name"
+                        value="Jose Annunziato"
+                        class="form-control"/>
+                    <label for="select-one-genre" class="form-label wd-bold-font">Pronouns:</label>
+                    <select id="select-one-genre">
+                        <option selected value="NONE">None</option>
+                    </select>
+                    <label for="text-fields-assignment-name" class="form-label wd-bold-font">Title:</label>
+                    <input type="text"
+                        id="text-fields-assignment-name"
+                        value=""
+                        class="form-control"/><br/>
+                    <h5>Contact</h5>
+                    <span>No registered devices, you can add some on the <a href="#">settings</a> page</span>
+                    <h5>Biography</h5>
+                    <textarea class="form-control">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea><br/>
+                    <h3>Links</h3>
+                    <div class="container text-center">
+                        <div class="row">
+                          <div class="col">
+                            <h4>Title</h4>
+                          </div>
+                          <div class="col">
+                            <h4>URL</h4>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <input
+                                class="form-control"
+                                type="text"
                                 id="text-fields-assignment-name"
                                 value="Youtube"/>
-                        </th>
-                        <th>-></th>
-                        <th>
-                            <input type="text"
+                          </div>
+                          ->
+                          <div class="col">
+                            <input 
+                                class="form-control"
+                                type="text"
                                 id="text-fields-assignment-name"
                                 value="https://www.youtube.com/"/>
-                        </th>
-                        <th><a href="#">Remove</a></a></th>
-                    </tr>
-                </table>
-                <button type="button">Add another link</button> <br/>
-                <button type="button">Cancel</button>
-                <button type="button">Save Profile</button><br/>
-                <button type="button">Edit Profile</button>
-                <button type="button">Cancel Editing</button><br/>
-            </td>
-        </tr>
-    </table>
+                          </div>
+                        </div><br/>
+
+                        <div class="d-flex row text-start">
+                            <div class="column">
+                                <button type="button" class="btn btn-outline-secondary wd-button-medium">Add another link</button>
+                            </div>
+                        </div><br/>
+    
+                        <div class="float-end">
+                            <a href="index.html">
+                                <button type="button" class="btn btn-outline-secondary wd-button-medium">Cancel</button>
+                            </a>
+                            <a href="index.html">
+                                <button type="button" class="btn btn-danger wd-button-medium">Save Profile</button>
+                            </a>
+                        </div>
+                        
+                    </div><br/>
+                    
+                </div>
+                <a href="index.html">
+                    <button type="button" class="btn btn-outline-secondary">
+                        <i class="fas fa-pencil-alt fa-rotate-270"></i>
+                        Cancel Editing
+                    </button></th>
+                </a>  
+            </div>
+        </div>
+    </div>
 </body>
 </html>

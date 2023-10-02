@@ -1,66 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head><head>
 <head>
-   <meta charset="UTF-8">
-   <title>Account</title>
+    <link href="../index.css"
+         rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <td style="vertical-align:top">
-                <ul>
-                    <li><a href="../account.html">Account</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="../courses.html">Courses</a></li>
-                    <li><a href="#">Calender</a></li>
-                    <li><a href="#">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Commons</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </td>
-            <td style="vertical-align:top">
-                <ul>
-                    <li><a href="#">Notifications</a></li>
-                    <li><a href="index.html">Profile</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">ePortfolios</a></li>
-                    <li><a href="#">Shared Content</a></li>
-                    <li><a href="#">The Hub</a></li>
-                    <li><a href="#">Qwickly Course Tools</a></li>
-                    <li><a href="#">Global Announcements</a></li>
-                </ul>
-            </td>
-            <td style="vertical-align:top">
-                Jose Annunziato's Profile <br/>
-                <table width="100%">
-                    <tr>
-                        <th>
-                            <table>
-                                <th><h1>Jose Annunziato</h1></th>
-                            </table>
-                        </th>
-                        <th>
-                            <table>
-                                <th>
-                                    <a href="edit.html">
-                                        <button type="button">Edit Profile</button></th>
-                                    </a>
-                                </th>
-                            </table>
-                        </th>
-                    </tr>
-                </table>
-                <h2>Contact</h2>
-                No registered devices, you can add some on the <a href="#">settings</a> page
-                <h2>Biography</h2>
-                Faculty, Software Engineer, AI, Space, and renewables enthusiast.
-                <h2>Links</h2>
-                <a href="#">YouTube</a>
-            </td>
-        </tr>
-    </table>
+    <div class="wd-row-layout">
+        <div class="wd-side-bar">
+            <img src="../../images/northeastern-logo.png"
+                class="card-img-top" alt="...">
+            <a href="index.html" class="wd-white-background">
+                <i class="fas fa-user-circle fa-2x wd-gray"></i><br/>
+                <span class="wd-red">Account</span>
+            </a>
+            <a href="../dashboard.html">
+                <i class="fas fa-tachometer-alt fa-2x wd-red"></i><br/>
+                <span class="wd-white">Dashboard</span>
+            </a>
+            <a href="../home.html">
+                <i class="fas fa-book fa-2x wd-red"></i><br/>
+                <span class="wd-white">Courses</span>
+            </a>
+            <a href="#">
+                <i class="far fa-calendar-alt fa-2x wd-red"></i><br/>
+                <span class="wd-white">Calender</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-inbox fa-2x wd-red"></i><br/>
+                <span class="wd-white">Inbox</span>
+            </a>
+            <a href="#">
+                <i class="far fa-clock fa-2x wd-red"></i><br/>
+                <span class="wd-white">History</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-tv fa-2x wd-red"></i><br/>
+                <span class="wd-white">Studio</span>
+            </a>
+            <a href="#">
+                <i class="fab fa-creative-commons-sa fa-2x wd-red"></i><br/>
+                <span class="wd-white">Commons</span>
+            </a>
+            <a href="#">
+                <i class="far fa-question-circle fa-2x wd-red"></i><br/>
+                <span class="wd-white">Help</span>
+            </a>
+        </div>
+        <div class="wd-content-container">
+            <div class="wd-profile-header">
+                <i class="fas fa-bars wd-menu-icon"></i>
+                <span class="wd-text">Jose Annunziato's Profile</span>
+            </div>
+            <hr class="wd-hr"/>
+            <div class="wd-row-layout">
+                <div class="wd-account-sidebar">
+                    <a href="#">Notifications</a>
+                    <a href="index.html" >
+                        <span class="wd-account-sidebar-selected">Profile</span>
+                    </a>
+                    <a href="#">Files</a>
+                    <a href="#">Settings</a>
+                    <a href="#">ePortfolios</a>
+                    <a href="#">Shared Content</a>
+                    <a href="#">The Hub</a>
+                    <a href="#">Qwickly Course Tools</a>
+                    <a href="#">Global Announcements</a>
+                </div>
+                <div class="wd-profile-info">
+                    <i class="fas fa-user fa-10x wd-gray"></i>
+                    <h2>Jose Annunziato</h2><br/>
+                    <h3>Contact</h3>
+                    <span>No registered devices, you can add some on the <a href="#">settings</a> page</span><br/>
+                    <h3>Biography</h3>
+                    <span>Faculty, Software Engineer, AI, Space, and renewables enthusiast.</span><br/>
+                    <h3>Links</h3>
+                    <a href="https://www.youtube.com/@WebDevTV/featured">YouTube</a>
+                </div>
+                <a href="edit.html" class="float:">
+                    <button type="button" class="btn btn-outline-secondary">
+                        <i class="fas fa-pencil-alt fa-rotate-270"></i>
+                        Edit Profile
+                    </button></th>
+                </a>   
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>

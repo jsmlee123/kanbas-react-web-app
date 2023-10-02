@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head><head>
+<head>
+    <link href="../index.css"
+         rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wd-row-layout">
+        <div class="wd-side-bar">
+            <img src="../../images/northeastern-logo.png"
+                class="card-img-top" alt="...">
+            <a href="../profile/index.html">
+                <i class="far fa-user-circle fa-2x wd-white"></i><br/>
+                <span class="wd-white">Account</span>
+            </a>
+            <a href="../dashboard.html">
+                <i class="fas fa-tachometer-alt fa-2x wd-red"></i><br/>
+                <span class="wd-white">Dashboard</span>
+            </a>
+            <a href="../home.html" class="wd-white-background">
+                <i class="fas fa-book fa-2x wd-red"></i><br/>
+                <span class="wd-red">Courses</span>
+            </a>
+            <a href="#">
+                <i class="far fa-calendar-alt fa-2x wd-red"></i><br/>
+                <span class="wd-white">Calender</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-inbox fa-2x wd-red"></i><br/>
+                <span class="wd-white">Inbox</span>
+            </a>
+            <a href="#">
+                <i class="far fa-clock fa-2x wd-red"></i><br/>
+                <span class="wd-white">History</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-tv fa-2x wd-red"></i><br/>
+                <span class="wd-white">Studio</span>
+            </a>
+            <a href="#">
+                <i class="fab fa-creative-commons-sa fa-2x wd-red"></i><br/>
+                <span class="wd-white">Commons</span>
+            </a>
+            <a href="#">
+                <i class="far fa-question-circle fa-2x wd-red"></i><br/>
+                <span class="wd-white">Help</span>
+            </a>
+        </div>
+
+        <div class="wd-content-container">
+            <div class="wd-profile-header">
+                <i class="fas fa-bars wd-menu-icon"></i>
+                <nav style="--bs-breadcrumb-divider: '>';" class="pt-3">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#" class="wd-red wd-non-decorated">CS4550.12631.202410</a>
+                        </li>
+                        <li class="breadcrumb-item active">Assignments</li>
+                    </ol>
+                </nav>
+            </div>
+            <hr class="wd-hr"/>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column flex-grow-1">
+                    <div class="wd-row-layout mt-1">
+                        <div class="d-flex flex-column">
+                            <span class="wd-published-courses-header">202410_1 Fall 2023 Semester Full Term</span>
+                            <div class="wd-account-sidebar mt-3">
+                                <a href="../home.html">Home</a>
+                                <a href="#">Modules</a>
+                                <a href="#">Piazza</a>
+                                <a href="#">Zoom Meetings</a>
+
+                                <a href="assignments.html">
+                                    <span class="wd-account-sidebar-selected">Assignments</span>
+                                </a>
+                                <a href="#">Quizzes</a>
+                                <a href="../grades.html">Grades</a>
+                                <a href="#">People</a>
+                                <a href="#">Panopto Video</a>
+                                <a href="#">Discussions</a>
+                                <a href="#">Announcements</a>
+                                <a href="#">Pages</a>
+                                <a href="#">Files</a>
+                                <a href="#">Rubrics</a>
+                                <a href="#">Outcomes</a>
+                                <a href="#">Collaborations</a>
+                                <a href="#">Syllabus</a>
+                                <a href="#">Progress Reports</a>
+                                <a href="#">Settings</a>
+                            </div>
+                        </div>
+                            
+                        <div class="d-flex flex-column wd-course-list ">
+                            <div>
+                                <div class="float-start">
+                                    <input type="email"
+                                        class="form-control w-100"
+                                        id="input1"
+                                        placeholder="Search for Assignments">
+                                </div>
+                                <div class="float-end">
+                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                        Group
+                                    </button>
+                                    <button type="button" class="btn btn-danger wd-button-medium">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                        Assignment
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary wd-button-medium">
+                                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div>
+                                <ul class="list-group rounded-0 mt-4">
+                                    <li class="list-group-item list-group-item-secondary">
+                                        <div class="float-start pe-2 wd-list">
+                                            <i class="fa fa-ellipsis-v wd-gray fa-xs" aria-hidden="true"></i>
+                                            <i class="fa fa-ellipsis-v wd-gray fa-xs me-3" aria-hidden="true"></i>
+                                        </div>
+                                        Assignments
+                                        <div class="float-end">
+                                            <div class="d-inline border border-secondary rounded-pill me-3">
+                                                <span>40% of total</span>
+                                            </div>
+                                            <i class="fa fa-plus me-3" aria-hidden="true"></i>
+                                            <i class="fa fa-ellipsis-v wd-gray" aria-hidden="true"></i>
+                                        </div>
+                                    </li>
+                                    <div class="wd-list-border">
+                                        <li class="list-group-item">
+                                            <div class="float-start">
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs me-3" aria-hidden="true"></i>
+                                                <i class="far fa-edit wd-green ms-2"></i>
+                                            </div>
+                                            
+                                            <div class="float-end">
+                                                <i class="fa fa-check-circle wd-green me-3" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="wd-assignments-body">
+                                                <h6><a href="edit.html" class="wd-non-decorated wd-black"> A1 SETUP </a></h6>
+                                                <p> Week 0 - SETUP - RANDOM ABRIDGED FILLER TEXT HERE!!!<br>
+                                                    Due Sep 18, 2022 at 11:59 | 100 pts</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="float-start ">
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs me-3" aria-hidden="true"></i>
+                                                <i class="far fa-edit wd-green ms-2"></i>
+                                            </div>
+                                            
+                                            <div class="float-end">
+                                                <i class="fa fa-check-circle wd-green me-3" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="wd-assignments-body">
+                                                <h6><a href="edit.html" class="wd-non-decorated wd-black"> A2 HTML </a></h6>
+                                                <p> Week 0 - SETUP - RANDOM ABRIDGED FILLER TEXT HERE!!!<br>
+                                                    Due Sep 18, 2022 at 11:59 | 100 pts</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="float-start ">
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs me-3" aria-hidden="true"></i>
+                                                <i class="far fa-edit wd-green ms-2"></i>
+                                            </div>
+                                            
+                                            <div class="float-end">
+                                                <i class="fa fa-check-circle wd-green me-3" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="wd-assignments-body">
+                                                <h6><a href="edit.html" class="wd-non-decorated wd-black"> A3 CSS </a></h6>
+                                                <p> Week 0 - SETUP - RANDOM ABRIDGED FILLER TEXT HERE!!!<br>
+                                                    Due Sep 18, 2022 at 11:59 | 100 pts</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item ">
+                                            <div class="float-start ">
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs me-3" aria-hidden="true"></i>
+                                                <i class="far fa-edit wd-green ms-2"></i>
+                                            </div>
+                                            
+                                            <div class="float-end">
+                                                <i class="fa fa-check-circle wd-green me-3" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="wd-assignments-body">
+                                                <h6><a href="edit.html" class="wd-non-decorated wd-black"> A4 BOOTSTRAP </a></h6>
+                                                <p> Week 0 - SETUP - RANDOM ABRIDGED FILLER TEXT HERE!!!<br>
+                                                    Due Sep 18, 2022 at 11:59 | 100 pts</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="float-start ">
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs me-3" aria-hidden="true"></i>
+                                                <i class="far fa-edit wd-green ms-2"></i>
+                                            </div>
+                                            
+                                            <div class="float-end">
+                                                <i class="fa fa-check-circle wd-green me-3" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="wd-assignments-body">
+                                                <h6><a href="edit.html" class="wd-non-decorated wd-black"> A5 JAVASCRIPT </a></h6>
+                                                <p> Week 0 - SETUP - RANDOM ABRIDGED FILLER TEXT HERE!!!<br>
+                                                    Due Sep 18, 2022 at 11:59 | 100 pts</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item ">
+                                            <div class="float-start ">
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs " aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray fa-xs me-3" aria-hidden="true"></i>
+                                                <i class="far fa-edit wd-green ms-2 "></i>
+                                            </div>
+                                            
+                                            <div class="float-end">
+                                                <i class="fa fa-check-circle wd-green me-3" aria-hidden="true"></i>
+                                                <i class="fa fa-ellipsis-v wd-gray" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="wd-assignments-body">
+                                                <h6><a href="edit.html" class="wd-non-decorated wd-black"> A6 REACT </a></h6>
+                                                <p> Week 0 - SETUP - RANDOM ABRIDGED FILLER TEXT HERE!!!<br>
+                                                    Due Sep 18, 2022 at 11:59 | 100 pts</p>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
