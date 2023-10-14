@@ -1,0 +1,50 @@
+.wd-kanbas-navigation {
+  background: black;
+  border-radius: 0px;
+  border: none;
+}
+
+.wd-kanbas-navigation a {
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  border: none;
+}
+
+
+.wd-side-bar {
+  background-color: black;
+  color: red;
+  width: 80px;
+  min-height: 100vh                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ; 
+  align-items: center;
+  float: left;
+  position: fixed;
+}
+.wd-side-bar a {
+  display: block;
+  text-decoration:none;
+  color: red;
+  justify-content: center;
+  margin-top: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: small;
+}
+
+.wd-side-bar a.active {
+  background-color: white;
+  color: red;
+}
+
+.wd-side-bar a.account {
+  background-color: black;
+  color: red;
+}
+
+.wd-white {
+  color: white;
+}
