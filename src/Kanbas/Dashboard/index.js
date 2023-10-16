@@ -10,7 +10,7 @@ function Dashboard() {
       </div>
       <hr className="wd-hr"/>
       <div className="d-flex flex-column">
-          <h4 className="wd-published-courses-header">Published Courses(3)</h4>
+          <h4 className="wd-published-courses-header">Published Courses({courses.length})</h4>
       </div>
       
       <div class="d-flex flex-row flex-wrap ">
