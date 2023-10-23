@@ -109,3 +109,16 @@
   padding-left: 70px;
   font-size: smaller;
 }
+.wd-profile-header {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: row;
+  font-size: medium;
+  align-items: center;
+}
+.wd-add-course-body {
+  padding-left: 20px;
+}
+.wd-add-course-body > *{
+  margin-right: 20px;
+}

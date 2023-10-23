@@ -198,3 +198,7 @@ width:100%;
 .breadcrumb-item + .breadcrumb-item::before {
     content: ">";
 }
+
+.wd-add-modules > * {
+    margin-bottom: 10px;
+}
