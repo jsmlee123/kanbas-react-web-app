@@ -9,15 +9,17 @@ import {AiOutlineMenu} from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
+
 import "./index.css";
 
 function Courses() {
-  const URL = "http://localhost:4000/api/courses";
+  const API_BASE = process.env.REACT_APP_API_BASE;
+  const COURSES_URL = `${API_BASE}/courses`;
   const { courseId } = useParams();
   const [course, setCourse] = useState({});
   const findCourseById = async (courseId) => {
     const response = await axios.get(
-      `${URL}/${courseId}`
+      `${COURSES_URL}/${courseId}`
     );
     setCourse(response.data);
   };
