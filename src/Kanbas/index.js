@@ -42,8 +42,8 @@ function Kanbas() {
     );
   };
 
-
-  const URL = "https://kanbas-node-server-app-j2bj.onrender.com/api/courses";
+  const API_BASE = process.env.REACT_APP_API_BASE;
+  const URL = `${API_BASE}/courses`;
   const findAllCourses = async () => {
     const response = await axios.get(URL);
     setCourses(response.data);
