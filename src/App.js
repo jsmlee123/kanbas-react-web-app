@@ -6,6 +6,7 @@ import logo from "./logo.svg";
 import { HashRouter } from "react-router-dom";
 import { Routes, Route, Navigate } from "react-router";
 import StateManagement from "./Lectures/StateManagement";
+import UserTable from "./users/table";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Lectures" element={<StateManagement />} />
           <Route path="/Labs/*" element={<Labs />} />
           <Route path="/Kanbas/*" element={<Kanbas />} />
+          <Route path="/admin/users" element={<UserTable />}/>
         </Routes>
       </div>
     </HashRouter>
